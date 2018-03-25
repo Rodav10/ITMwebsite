@@ -6,6 +6,10 @@ body main {
     font-family: 'Open Sans', sans-serif !important;
 }
 
+.material-icons {
+    font-size: 2.25rem;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -82,7 +86,7 @@ a.middle-indicator-text {
 }
 
 .indicators {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .preloader-background {
