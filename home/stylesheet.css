@@ -101,7 +101,3 @@ a.middle-indicator-text {
     right: 0;
     bottom: 0;
 }
-
-.material-tooltip>.backdrop {
-    background-color: #cc0000;
-}
