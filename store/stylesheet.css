@@ -24,6 +24,7 @@ html {
 }
 
 .section {
+    background-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
 }
 
@@ -39,5 +40,3 @@ html {
     right: 0;
     bottom: 0;
 }
-
-.container .row {}
