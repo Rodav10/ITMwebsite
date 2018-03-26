@@ -47,15 +47,15 @@ html {
 }
 
 .item-1 {
-    background-image: url("../Photos/Carousel-1.jpeg");
+    background-image: url("../Photos/Carousel-1.jpg");
 }
 
 .item-2 {
-    background-image: url("../Photos/Carousel-2.jpeg");
+    background-image: url("../Photos/Carousel-2.jpg");
 }
 
 .item-3 {
-    background-image: url("../Photos/Carousel-3.jpeg");
+    background-image: url("../Photos/Carousel-3.jpg");
 }
 
 .carousel {
