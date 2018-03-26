@@ -1,8 +1,8 @@
 var instance = M.Carousel.init(document.querySelector('.carousel'), {
     fullWidth: true,
     indicators: true,
-    duration: 50,
-    nowarp: true
+    duration: 40,
+
 });
 
 // Animates the preloader spinning circle with a fade out as the Carousel wasnt loading on time
