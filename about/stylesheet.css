@@ -39,3 +39,7 @@ html {
     right: 0;
     bottom: 0;
 }
+
+.footer-copyright {
+    background-color: #002071 !important;
+}

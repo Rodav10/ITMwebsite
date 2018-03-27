@@ -59,3 +59,11 @@ html {
     padding-left: 13px !important;
     padding-right: 13px !important;
 }
+
+.btn {
+    background-color: #0097a7 !important;
+}
+
+.footer-copyright {
+    background-color: #002071 !important;
+}
