@@ -1,9 +1,9 @@
-var instance = M.Carousel.init(document.querySelector('.carousel'), {
-    fullWidth: true,
-    indicators: true,
-    duration: 40,
+var elem = document.querySelector('.carousel');
+var instance = M.Carousel.init(elem, fullwidth = true);
 
-});
+setInterval(function() {
+    $('.carousel').carousel('next');
+}, 5000);
 
 // Animates the preloader spinning circle with a fade out as the Carousel wasnt loading on time
 document.addEventListener("DOMContentLoaded", function() {
@@ -13,17 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
         .delay(1500)
         .fadeOut();
 });
-
-
-// Starts the carousel's movement of the photos
-autoplay()
-
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 6000);
-
-}
-
 
 // ALl the adjustments for a smooth scroll jquery plugin that was needed for the parallax to look good.
 $("html").easeScroll({
