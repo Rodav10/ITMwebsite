@@ -1,0 +1,55 @@
+body main {
+    display: flex;
+    flex: 1 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+html {
+    min-height: 100%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.card-image {
+    text-shadow: 1px 1px 0.25px #000000;
+}
+
+.nav-wrapper {
+    height: 100px !important;
+}
+
+.section {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page-footer {
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
+}
+
+.footer-copyright {
+    background-color: #12005e !important;
+}
