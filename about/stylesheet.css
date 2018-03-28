@@ -10,6 +10,10 @@ main {
     flex: 1 0 auto;
 }
 
+html {
+    min-height: 100%;
+}
+
 body,
 html {
     height: 100%;
@@ -40,6 +44,12 @@ html {
     bottom: 0;
 }
 
+.page-footer {
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
+}
+
 .footer-copyright {
-    background-color: #002071 !important;
+    background-color: #12005e !important;
 }

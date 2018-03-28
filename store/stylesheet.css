@@ -65,5 +65,11 @@ html {
 }
 
 .footer-copyright {
-    background-color: #002071 !important;
+    background-color: #12005e !important;
+}
+
+.page-footer {
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
 }
