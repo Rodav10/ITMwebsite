@@ -5,6 +5,10 @@ setInterval(function() {
     $('.carousel').carousel('next');
 }, 5000);
 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
 // Animates the preloader spinning circle with a fade out as the Carousel wasnt loading on time
 document.addEventListener("DOMContentLoaded", function() {
     $('.preloader-background').delay(1500).fadeOut('slow');
@@ -44,3 +48,39 @@ $('.movePrevCarousel').click(function(e) {
     e.stopPropagation();
     $('.carousel').carousel('prev');
 });
+
+$(document).ready(function () {
+    $('#contactForm').validate({ // initialize the plugin
+        rules: {
+            message: {
+                maxlength: 120
+            },
+            onkeyup: true,
+        },
+    });
+});
+
+$(document).ready(function () {
+    $('#newsForm').validate({ // initialize the plugin
+        rules: {
+            message: {
+                maxlength: 120
+            },
+            number: {
+                
+            },
+            onkeyup: true,
+        },
+    });
+});
+
+function formSubmit() {
+    document.getElementById('newsForm').reset();
+    document.getElementById('contactForm').reset();
+    $('input:checkbox').removeAttr('checked');
+
+}
+
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });

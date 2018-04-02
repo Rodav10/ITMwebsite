@@ -1,0 +1,31 @@
+.card-image {
+    text-shadow: 1px 1px 0.25px #000000;
+}
+
+.nav-wrapper {
+    height: 100px !important;
+}
+
+.section {
+    height: 700px;
+    
+}
+
+.row {
+    margin-bottom: 0 !important;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 21%;
+    left: 17%;
+}
+
+.col {
+    padding-left: 0%;
+}
+
+.section {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}

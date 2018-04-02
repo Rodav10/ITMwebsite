@@ -1,0 +1,19 @@
+.card-image {
+    text-shadow: 1px 1px 0.25px #000000;
+}
+
+.nav-wrapper {
+    height: 100px !important;
+}
+
+card.btn {
+    background-color: #0097a7 !important;
+}
+
+.section {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.logo-container {
+    margin-top: 32px !important;
+}

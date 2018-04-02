@@ -1,0 +1,44 @@
+.card-image {
+    text-shadow: 1px 1px 0.25px #000000;
+}
+
+.nav-wrapper {
+    height: 100px !important;
+}
+
+.image-container img {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+h5 {
+    font-style: bold;
+}
+
+.sidenav-trigger {
+    z-index: 1 !important;
+    position: absolute;
+}
+
+main {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.logo-container {
+    margin-bottom: 0px !important;
+}

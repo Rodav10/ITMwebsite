@@ -5,10 +5,43 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="home/stylesheet.css" />
-    <title>Murph Tech</title>
+    <link type="text/css" rel="stylesheet" href="css/index-stylesheet.css" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/global-stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Murph Tech</title>
+    <link type="image/png" rel="icon" href="Photos/favicon.png">
+
+    <ul id="slide-out" class="sidenav">
+        <li class="logo center-align">
+            <a id="logo-container" class="brand-logo">
+                <object id="front-page-logo" type="image/svg+xml" data="Photos/logo.svg">Your browser does not support SVG</object>
+            </a>
+        </li>
+        <li class="search">
+            <div class="search-wrapper">
+                <input class="search" placeholder="Search">
+                <i class="material-icons">search</i>
+                <div class="search-results"></div>
+            </div>
+        </li>
+
+        <li class="bold" style="margin-top: 100px;">
+            <a href="#!" class="waves-effect waves-teal">Home</a>
+        </li>
+
+        <li class="bold">
+            <a href="store.html" class="waves-effect waves-blue">Store</a>
+        </li>
+        <li class="bold">
+            <a href="help.html" class="waves-effect waves-blue">Help Desk</a>
+        </li>
+        <li class="bold">
+            <a href="about.html" class="waves-effect waves-blue">About Us</a>
+        </li>
+        <a href="license.html" class="foot black-text btn btn-large white">Licenses</a>
+
+    </ul>
 
 </head>
 
@@ -33,6 +66,9 @@
 
     <div class="valign-wrapper">
         <div class="center">
+            <a href="#" data-target="slide-out" class="sidenav-trigger left show-on-large btn-large white left-over">
+                <i class="material-icons black-text">menu</i>
+            </a>
             <div class="text-over-carousel">
                 <h1 class="z-index-5">Murph Tech</h1>
                 <h6 class="white-text">For all your software and hardware needs</h6>
@@ -43,57 +79,65 @@
     <div class="carousel carousel-slider center">
         <div class="carousel-fixed-item center">
             <div class="left valign-wrapper">
-                <a href="#" class="movePrevCarousel white waves-effect waves-dark z-depth-2 hoverable"><i class="material-icons grey-text text-darken-4 left middle-indicator-text">chevron_left</i></a>
+                <a href="#" class="movePrevCarousel white waves-effect waves-dark z-depth-2 hoverable">
+                    <i class="material-icons grey-text text-darken-4 left middle-indicator-text" title="<">chevron_left</i>
+                </a>
             </div>
 
             <div class="right valign-wrapper">
-                <a href="#" class="moveNextCarousel white waves-effect waves-dark z-depth-2 hoverable"><i class="material-icons right grey-text text-darken-4 middle-indicator-text">chevron_right</i></a>
+                <a href="#" class="moveNextCarousel white waves-effect waves-dark z-depth-2 hoverable">
+                    <i class="material-icons right grey-text text-darken-4 middle-indicator-text">chevron_right</i>
+                </a>
             </div>
-            <a class="btn-large waves-effect white lighten-2 black-text darken-text-2" href="store/index.html">Store</a>
-            <a class="btn-large waves-effect white lighten-2 black-text darken-text-2">Who we are</a>
+            <a class="btn-large waves-effect white lighten-2 black-text darken-text-2" href="store.html">Store</a>
         </div>
-        <div class="carousel-item item-1 top-box"></div>
-        <div class="carousel-item item-2 top-box"></div>
-        <div class="carousel-item item-3 top-box"></div>
+        <div class="carousel-item item-1 top-box" alt="Man souldering something"></div>
+        <div class="carousel-item item-2 top-box" alt="Man plggining in ethernat cables to a switch"></div>
+        <div class="carousel-item item-3 top-box" alt="laptop with a non standard laptop keys "></div>
 
     </div>
 
-    <div class="section white z-depth-0">
+    <div class="section white z-depth-5">
         <div class="row">
             <div class="container">
                 <div class="col s4 m4">
                     <div class="icon-block">
-                        <h2 class="center purple-text text-darken-4"><i class="material-icons">flash_on</i></h2>
+                        <h2 class="center purple-text text-darken-4">
+                            <i class="material-icons">flash_on</i>
+                        </h2>
                         <h5 class="center">Speeds up creative development</h5>
 
-                        <p class="light ">We did most of the heavy lifting for you to provide a quick responsive, well thought feature set that incorporate our custom technology taken straight from our commercial software. Additionally, we refined the looks to provide
-                            a smoother experience for users.</p>
+                        <p class="light ">We did most of the heavy lifting for you to provide a quick responsive, well thought feature set
+                            that incorporate our custom technology taken straight from our commercial software. Additionally,
+                            we refined the looks to provide a smoother experience for users.</p>
                     </div>
                 </div>
 
                 <div class="col s4 m4">
                     <div class="icon-block">
-                        <h2 class="center purple-text text-darken-4"><i class="material-icons">extensions</i></h2>
+                        <h2 class="center purple-text text-darken-4">
+                            <i class="material-icons">extensions</i>
+                        </h2>
                         <h5 class="center">Advance plugin support</h5>
 
-                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                        <p class="light">We have provided detailed documentation as well as specific code examples to et plugin developer right at home for developing tools or anything for the platfor mwe have created.</p>
                     </div>
                 </div>
 
                 <div class="col s4 m4">
                     <div class="icon-block">
-                        <h2 class="center purple-text text-darken-4"><i class="material-icons">aspect_ratio</i></h2>
+                        <h2 class="center purple-text text-darken-4">
+                            <i class="material-icons">aspect_ratio</i>
+                        </h2>
                         <h5 class="center">Enhanced user interface</h5>
 
-                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across
-                            all platforms allow for a more unified user experience.</p>
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create an enchanced user interface through the custom framework specialy designed by our lead engineer, Murph. </p>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-
 
     <footer class="page-footer purple darken-4">
         <div class="container page-colour">
@@ -107,7 +151,9 @@
         <div class="footer-copyright">
             <div class="container white-text">
                 <p class="left">©2018 Mr M Murphy</p>
-                <p class="right"><a href="https:/www.awesomesights.com/webdesign.html" class="white-text">Back Home</a></p>
+                <p class="right">
+                    <a href="help.html" class="white-text">Help Desk</a>
+                </p>
             </div>
         </div>
     </footer>
