@@ -40,3 +40,7 @@ footer {
 .logo-container {
     margin-bottom: 0px !important;
 }
+
+.space {
+    height: 100px;
+}

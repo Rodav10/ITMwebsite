@@ -1,5 +1,9 @@
-.card-image {
+.card-image.black-text {
     text-shadow: 1px 1px 0.25px #000000;
+}
+
+.card-image.white-text {
+    text-shadow: 1px 1px 0.25px #eee;
 }
 
 .nav-wrapper {
@@ -16,4 +20,8 @@ card.btn {
 
 .logo-container {
     margin-top: 32px !important;
+}
+
+.card {
+    height: 450px !important;
 }
